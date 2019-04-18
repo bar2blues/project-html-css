@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+section {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+
+.top {
+    border-top: 3px solid black; 
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif
+}
+
+.one, .three, .four {
+    border-right: 1px solid black;
+    padding: 0 10px;
+    align-items: center;
+    width: 25%;
+}
+
+.two {
+    border-right: 1px solid black;
+    padding: 0 10px;
+    align-items: center;
+    width: 50%;
+}
